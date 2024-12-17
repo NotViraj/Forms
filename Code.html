@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="cyan">
+    <h1>
+        Form
+    </h1>
+    <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label>Name:</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="Name" required>
+        <br>
+        <br>
+        <label>Age</label>&nbsp;&nbsp;&nbsp;
+        <input type="number" id="number" min="0" max="18" required>
+        <br>
+        <br>
+        <label>Gender</label>&nbsp;&nbsp;&nbsp;
+        <select>
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Create an account</legend>
+            <label>Enter your E-Mail :</label>&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label>Enter a password :</label>&nbsp;&nbsp;&nbsp;
+            <input type="password" id="password">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            <label>Type of Consumer</label>
+            <br>
+            &nbsp;&nbsp;
+            <label>Personal --> </label><input type="radio" id="Consumer" name="Consumer" value="Personal">
+            <br>
+            &nbsp;&nbsp;
+            <label>Student --> </label><input type="radio" id="Consumer" name="Consumer" value="Student">
+            <br>
+            &nbsp;&nbsp;
+            <label>Educator --> </label><input type="radio" id="Consumer" name="Consumer" value="Educator">
+            <br>
+            &nbsp;&nbsp;
+            <label>Corporate --> </label><input type="radio" id="Consumer" name="Consumer" value="Corporate">
+        </fieldset>
+    </form>
+</body>
+</html>
